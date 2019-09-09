@@ -1,0 +1,11 @@
+language: python
+python:
+  -"3.7"
+services:
+  -vertualenv
+
+befor_script: pip install virtualenv
+
+script:
+  -python -m venv myproject
+  
